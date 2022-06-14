@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<links>
+
+    <!--General Links-->
+    <link name ="Login">Default.aspx</link>
+
+    <link name ="Home">Home.aspx</link>
+
+    <link name ="404">404.aspx</link>
+
+    <link name ="Error">Error.aspx</link>
+
+    <link name ="NoAccess">NoAccess.aspx</link>
+
+    <link name ="Backup">Backup.aspx</link>
+    
+    <!--Reception Links-->
+    <link name ="Reception">Reception.aspx</link>
+
+    <link name ="PatientsSettings">PatientsSettings.aspx</link>
+
+    <link name ="PatientsVisits">PatientsVisits.aspx</link>
+
+    <link name ="PatientsCurrentVisits">PatientsCurrentVisits.aspx</link>
+
+    <link name ="WaitingList">WaitingList.aspx</link>
+
+    <link name ="Backup">PatientsSettings.aspx</link>
+
+</links>

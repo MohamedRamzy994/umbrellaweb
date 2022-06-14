@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5dde25c5711a4890b68c674ed5b7bb59" Name="Diagram1">
+        <EntityTypeShape EntityType="UmbrellaDBModel.Clinic" Width="1.5" PointX="11.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Company" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Company_Pat_Det" Width="1.5" PointX="8.25" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Contract" Width="1.5" PointX="6" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Day" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Days_Det" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Diagnosis" Width="1.5" PointX="11.25" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Dos" Width="1.5" PointX="10.5" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Employee" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Examination" Width="1.5" PointX="3.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Examinations_Det" Width="1.5" PointX="6" PointY="37.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Expens" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Medicine" Width="1.5" PointX="10.5" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Page" Width="1.5" PointX="0.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Chronic_Diseases" Width="1.5" PointX="5.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Complaints" Width="1.5" PointX="10.5" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Diagnosis" Width="1.5" PointX="13.5" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Drugs" Width="1.5" PointX="5.25" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Family_History" Width="1.5" PointX="5.25" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Hospital_Admission" Width="1.5" PointX="5.25" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Images" Width="1.5" PointX="5.25" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Prescriptions" Width="1.5" PointX="10.5" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Prescriptions_Det" Width="1.5" PointX="12.75" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Requests" Width="1.5" PointX="10.5" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Requests_Det" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Surgeries" Width="1.5" PointX="5.25" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_transfusion" Width="1.5" PointX="5.25" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Visits" Width="1.5" PointX="8.25" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Pat_Vital_Signs" Width="1.5" PointX="10.5" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Patient" Width="1.5" PointX="3" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Section" Width="1.5" PointX="1.5" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.sysdiagram" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Test" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Transaction" Width="1.5" PointX="13.5" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.User" Width="1.5" PointX="0.75" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UmbrellaDBModel.Users_Permissions" Width="1.5" PointX="3" PointY="19.75" IsExpanded="true" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Transactions_Clinic" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Companies_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Company_Pat_Det_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Visits_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Company_Pat_Det_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Visits_Contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Days_Det_Days" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Diagnosis_Diagnosis" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Prescriptions_Det_Doses" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Examinations_Det_Examinations1" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Visits_Examinations_Det" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Prescriptions_Det_Medicines" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pages_Depts" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Users_Permissions_Pages" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Chronic_Diseases_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Complaints_Pat_Visits" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Diagnosis_Pat_Visits" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Drugs_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Family_History_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Hospital_Admission_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Images_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Prescriptions_Det_Pat_Prescriptions" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Prescriptions_Pat_Visits" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Requests_Pat_Visits" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Requests_Det_Tests" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Surgeries_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_transfusion_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Visits_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Visits_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Pat_Vital_Signs_Pat_Visits" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Transactions_Pat_Visits" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Patients_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Patients_Users1" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Transactions_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="UmbrellaDBModel.FK_Users_Permissions_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

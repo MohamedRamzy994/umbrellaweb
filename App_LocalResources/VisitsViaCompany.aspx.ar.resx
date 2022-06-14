@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>الوظيفة</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>رقم الزيارة</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>رقم المريض</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="BoundFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="BoundFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>الفحص</value>
+  </data>
+  <data name="BoundFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>المدفوع</value>
+  </data>
+  <data name="BoundFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="BoundFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="BoundFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>رقم الفحص</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>اسم المريض</value>
+  </data>
+  <data name="BoundFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>التكلفة</value>
+  </data>
+  <data name="BoundFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource21.HeaderText" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="BoundFieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource22.HeaderText" xml:space="preserve">
+    <value>رقم الشركة</value>
+  </data>
+  <data name="BoundFieldResource23.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource23.HeaderText" xml:space="preserve">
+    <value>خصم %</value>
+  </data>
+  <data name="BoundFieldResource24.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource24.HeaderText" xml:space="preserve">
+    <value>المستخدم</value>
+  </data>
+  <data name="BoundFieldResource25.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource25.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource25.HeaderText" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="BoundFieldResource26.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource26.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource26.HeaderText" xml:space="preserve">
+    <value>اليوم</value>
+  </data>
+  <data name="BoundFieldResource27.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource27.HeaderText" xml:space="preserve">
+    <value>الوقت من</value>
+  </data>
+  <data name="BoundFieldResource28.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource28.HeaderText" xml:space="preserve">
+    <value>الوقت الي</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>الرصيد</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>الموبايل</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>التليفون</value>
+  </data>
+  <data name="btnDefaultResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDefaultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDoctorRefreshResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDoctorRefreshResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPatients_udSearchResource1.Text" xml:space="preserve">
+    <value>البحث</value>
+  </data>
+  <data name="btnPatients_udSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnVisitDeleteResource1.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="btnVisitDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnVisitSaveResource1.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnVisitSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnVisitsRefreshResource1.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="btnVisitsRefreshResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnVisitUpdateResource1.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="btnVisitUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpCompanies_udResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpExamResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpSearchgvPatients_udColResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpSearchgvPatients_udGenderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpSrchgvDoctorDatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpVisitExamResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvDoctorDatesResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvDoctorDatesResource2.EmptyDataText" xml:space="preserve">
+    <value>لا يوجد بيانات</value>
+  </data>
+  <data name="gvDoctorDatesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvPatients_udResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvPatients_udResource1.EmptyDataText" xml:space="preserve">
+    <value>لا يوجد بيانات</value>
+  </data>
+  <data name="gvPatients_udResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvVisitsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvVisitsResource1.EmptyDataText" xml:space="preserve">
+    <value>لا يوجد بيانات</value>
+  </data>
+  <data name="gvVisitsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContracts_udtatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContracts_udtatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatNameResource1.ToolTip" xml:space="preserve">
+    <value>اسم المريض</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>كل المرضي</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>موبايل او تليفون</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>الكل - النوع</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>انثي</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>زيارات الشركات</value>
+  </data>
+  <data name="retxtPaidAmountResource1.ErrorMessage" xml:space="preserve">
+    <value>*خطأ</value>
+  </data>
+  <data name="retxtPaidAmountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retxtPaidAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retxtVisitDateResource1.ErrorMessage" xml:space="preserve">
+    <value>*خطأ</value>
+  </data>
+  <data name="retxtVisitDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retxtVisitDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvdrpVisitExamResource1.ErrorMessage" xml:space="preserve">
+    <value>*اجباري</value>
+  </data>
+  <data name="rvdrpVisitExamResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvdrpVisitExamResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtPaidAmountResource1.ErrorMessage" xml:space="preserve">
+    <value>*اجباري</value>
+  </data>
+  <data name="rvtxtPaidAmountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtPaidAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtVisitDateResource1.ErrorMessage" xml:space="preserve">
+    <value>*اجباري</value>
+  </data>
+  <data name="rvtxtVisitDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtVisitDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtVisitTimeResource1.ErrorMessage" xml:space="preserve">
+    <value>*اجباري</value>
+  </data>
+  <data name="rvtxtVisitTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtVisitTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bootstrap.href" xml:space="preserve">
+    <value>css/bootstrap.min.ar.css</value>
+  </data>
+  <data name="bootstrapresponsive.href" xml:space="preserve">
+    <value>css/bootstrap-responsive.min.ar.css</value>
+  </data>
+  <data name="pAboutus.InnerHtml" xml:space="preserve">
+    <value>أمـبريــلا النسخة 3.4 - © جميع الحقوق محفوظة لشركة أبلت سوفت وير &lt;span class="font-grey-4"&gt;|&lt;/span&gt;&lt;a href="AboutUs.aspx" target="_blank"&gt; عـن الشـركــة &lt;/a&gt;</value>
+  </data>
+  <data name="styleResource1.href" xml:space="preserve">
+    <value>css/style.ar.css</value>
+  </data>
+  <data name="btnNo.InnerHtml1" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="btnYes.InnerHtml1" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Current_Visits.InnerHtml" xml:space="preserve">
+    <value>زيارات حالية</value>
+  </data>
+  <data name="DeleteMsg.InnerHtml1" xml:space="preserve">
+    <value>هل انت متأكد من الحذف؟</value>
+  </data>
+  <data name="Deletion_Confirmation.InnerHtml1" xml:space="preserve">
+    <value>تأكيد الحذف</value>
+  </data>
+  <data name="Doctor_Appointments.InnerHtml" xml:space="preserve">
+    <value>مواعيد الاطباء</value>
+  </data>
+  <data name="h2Visits_Via_Company.InnerHtml" xml:space="preserve">
+    <value>زيارات الشركات</value>
+  </data>
+  <data name="iPatients_ud_Visits.InnerHtml" xml:space="preserve">
+    <value>زيارات المرضي</value>
+  </data>
+  <data name="New_Visits.InnerHtml" xml:space="preserve">
+    <value>زيارات جديدة</value>
+  </data>
+  <data name="notice.InnerHtml" xml:space="preserve">
+    <value>لاحظ:في حالة ان كانت قيمة الزيارة مدفوعة بالفعل، سيتم خصم التكلفة تلقائيا من 
+                 حساب الخزنة والحسابات الأخرى المرتبطة بها</value>
+  </data>
+  <data name="Patients_ud_Reservations.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-settings"&gt;&lt;/i&gt; حجوزات المرضي</value>
+  </data>
+  <data name="Search_Patients_ud.InnerHtml" xml:space="preserve">
+    <value> بحث المرضي</value>
+  </data>
+  <data name="textfieldCompany.InnerHtml" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="textfieldContract.InnerHtml" xml:space="preserve">
+    <value>العقد</value>
+  </data>
+  <data name="textfieldDate.InnerHtml" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="textfieldExamination.InnerHtml" xml:space="preserve">
+    <value>الفحص </value>
+  </data>
+  <data name="textfieldPaid.InnerHtml" xml:space="preserve">
+    <value>مدفوع</value>
+  </data>
+  <data name="textfieldTime.InnerHtml" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="textfieldVisit_ID.InnerHtml" xml:space="preserve">
+    <value>رقم الزيارة</value>
+  </data>
+  <data name="Visits_Via_Company.InnerHtml" xml:space="preserve">
+    <value>زيارات الشركات</value>
+  </data>
+  <data name="Waiting_List.InnerHtml" xml:space="preserve">
+    <value>قائمة</value>
+  </data>
+  <data name="btnVisitNew.value" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="textfieldAction.InnerHtml" xml:space="preserve">
+    <value>الاجراءات</value>
+  </data>
+  <data name="txtSearchgvPatients_ud1.placeholder" xml:space="preserve">
+    <value>ابحث هنا.....</value>
+  </data>
+</root>

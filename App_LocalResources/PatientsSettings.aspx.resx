@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account_Settings.InnerHtml" xml:space="preserve">
+    <value>&lt;a href="AccountSettings.aspx" &gt;Account Settings&lt;/a&gt;</value>
+  </data>
+  <data name="ActionsResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                          Actions: </value>
+  </data>
+  <data name="AddressResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Address:</value>
+  </data>
+  <data name="aUmbrella.InnerHtml" xml:space="preserve">
+    <value>Umbrella</value>
+  </data>
+  <data name="BirthdateResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Birthdate:</value>
+  </data>
+  <data name="BloodResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Blood:</value>
+  </data>
+  <data name="bootstrap.href" xml:space="preserve">
+    <value>css/bootstrap.min.css</value>
+  </data>
+  <data name="bootstrapresponsive.href" xml:space="preserve">
+    <value>css/bootstrap-responsive.min.css</value>
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="BoundFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>blood_id</value>
+  </data>
+  <data name="BoundFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>Smoker</value>
+  </data>
+  <data name="BoundFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>DM</value>
+  </data>
+  <data name="BoundFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>HTN</value>
+  </data>
+  <data name="BoundFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="BoundFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="BoundFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="BoundFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>Modified By</value>
+  </data>
+  <data name="BoundFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="BoundFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="BoundFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Birthdate</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>marital_id</value>
+  </data>
+  <data name="btnDefaultResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDefaultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPatients_udDeleteResource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnPatients_udDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPatients_udNewResource1.value" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="btnPatients_udSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnPatients_udSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPatients_udSearchResource1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnPatients_udSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPatients_udUpdateResource1.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="btnPatients_udUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveThemeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveThemeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Created_ByResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Created-By:</value>
+  </data>
+  <data name="Created_OnResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Created-On:</value>
+  </data>
+  <data name="DMResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                DM:</value>
+  </data>
+  <data name="drpPatBloodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpPatDMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpPatGenderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpPatHTNResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpPatMaritalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpPatSmokerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpPatStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpSearchgvPatients_udColResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpSearchgvPatients_udGenderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="drpSearchgvPatients_udStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GenderResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Gender:</value>
+  </data>
+  <data name="gvPatients_udResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvPatients_udResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvPatients_udResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="h3Patients_ud_Settings.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-settings"&gt;&lt;/i&gt;Patients_ud Settings</value>
+  </data>
+  <data name="Home.InnerHtml" xml:space="preserve">
+    <value>&lt;span&gt;Home&lt;/span&gt;</value>
+  </data>
+  <data name="hPatients_ud_Settings.InnerHtml" xml:space="preserve">
+    <value>Patients_ud Settings</value>
+  </data>
+  <data name="HTNResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                HTN:</value>
+  </data>
+  <data name="JobResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Job:</value>
+  </data>
+  <data name="lblUserNameResource1.Text" xml:space="preserve">
+    <value>Moustafa Ebrahem</value>
+  </data>
+  <data name="lblUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbSignOutResource1.Text" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="lbSignOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>AB+</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>O+</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>A-</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>B-</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>AB-</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>O-</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource19.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource19.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="ListItemResource20.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource20.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource21.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="ListItemResource22.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource23.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="ListItemResource23.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource24.Text" xml:space="preserve">
+    <value>All Patients_ud</value>
+  </data>
+  <data name="ListItemResource24.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource25.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ListItemResource25.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource26.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ListItemResource26.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource27.Text" xml:space="preserve">
+    <value>Birthdate</value>
+  </data>
+  <data name="ListItemResource27.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource28.Text" xml:space="preserve">
+    <value>Mobile or Phone</value>
+  </data>
+  <data name="ListItemResource28.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource29.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="ListItemResource29.Value" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource30.Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="ListItemResource30.Value" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="ListItemResource31.Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="ListItemResource31.Value" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="ListItemResource32.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ListItemResource32.Value" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ListItemResource33.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="ListItemResource33.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource34.Text" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="ListItemResource34.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Engaged</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Married</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>Divorced</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Widower</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>A+</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>B+</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResourceKey1.Text" xml:space="preserve">
+    <value>Gender - All</value>
+  </data>
+  <data name="ListItemResourceKey1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaritalResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Marital:</value>
+  </data>
+  <data name="MobileResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Mobile:</value>
+  </data>
+  <data name="Modified_ByResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Modified-By:</value>
+  </data>
+  <data name="Modified_OnResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Modified-On:</value>
+  </data>
+  <data name="NameResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Name:</value>
+  </data>
+  <data name="New_Visits.InnerHtml" xml:space="preserve">
+    <value>&lt;a href="PatientsVisits.aspx" &gt;New Visits&lt;/a&gt;</value>
+  </data>
+  <data name="pAboutus.InnerHtml" xml:space="preserve">
+    <value>Umbrella v3.4 - © All Rights Reserved For APPLET Software &lt;span class="font-grey-4"&gt;|&lt;/span&gt;&lt;a href="AboutUs.aspx" target="_blank"&gt; About Us&lt;/a&gt;</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Patients_ud Settings</value>
+  </data>
+  <data name="Patient_NoResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                </value>
+  </data>
+  <data name="Patients_ud.InnerHtml" xml:space="preserve">
+    <value>&lt;a href="#t1" data-toggle="tab"&gt;Patients_ud&lt;/a&gt;</value>
+  </data>
+  <data name="Patients_ud_Information.InnerHtml" xml:space="preserve">
+    <value>
+                                                                        &lt;i class="glyphicon-group" __designer:mapid="4"&gt;&lt;/i&gt;Patients_ud Information</value>
+  </data>
+  <data name="Patients_ud_Settings.InnerHtml" xml:space="preserve">
+    <value>&lt;span&gt;Patients_ud Settings&lt;/span&gt;</value>
+  </data>
+  <data name="Patients_ud_Visits.InnerHtml" xml:space="preserve">
+    <value>&lt;span&gt;Patients_ud Visits&lt;/span&gt;</value>
+  </data>
+  <data name="PatientsofCompanies_ud.InnerHtml" xml:space="preserve">
+    <value>&lt;a href="PatientsofCompanies_ud.aspx"&gt;Patients_ud of Companies_ud&lt;/a&gt;</value>
+  </data>
+  <data name="PhoneResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Phone:</value>
+  </data>
+  <data name="Predefined_colors.InnerHtml" xml:space="preserve">
+    <value>&lt;li class="subtitle"&gt;Predefined colors&lt;/li&gt;</value>
+  </data>
+  <data name="Reception.InnerHtml" xml:space="preserve">
+    <value>&lt;span&gt;Reception&lt;/span&gt;</value>
+  </data>
+  <data name="retxtPatBirthdateResource1.ErrorMessage" xml:space="preserve">
+    <value>*Error</value>
+  </data>
+  <data name="retxtPatBirthdateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retxtPatBirthdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retxtPatMobileResource1.ErrorMessage" xml:space="preserve">
+    <value>*Error</value>
+  </data>
+  <data name="retxtPatMobileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retxtPatMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retxtPatPhoneResource1.ErrorMessage" xml:space="preserve">
+    <value>*Error</value>
+  </data>
+  <data name="retxtPatPhoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="retxtPatPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtPatBirthdateResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="rvtxtPatBirthdateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtPatBirthdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtPatNameResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="rvtxtPatNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rvtxtPatNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Search_Patients_ud.InnerHtml" xml:space="preserve">
+    <value>
+                                                                        &lt;i class="icon-search" __designer:mapid="77" &gt;&lt;/i&gt;Search Patients_ud</value>
+  </data>
+  <data name="SmokerResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Smoker:</value>
+  </data>
+  <data name="StatusResource1.InnerHtml" xml:space="preserve">
+    <value>
+                                                                                Status:</value>
+  </data>
+  <data name="styleResource1.href" xml:space="preserve">
+    <value>css/style.css</value>
+  </data>
+  <data name="Visits_Via_Company.InnerHtml" xml:space="preserve">
+    <value>&lt;a href="VisitsViaCompany.aspx" &gt;Visits Via Company&lt;/a&gt;</value>
+  </data>
+  <data name="Waiting_List.InnerHtml" xml:space="preserve">
+    <value>&lt;span&gt;Waiting List&lt;/span&gt;</value>
+  </data>
+  <data name="Created_By.placeholder" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="Created_Date.placeholder" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="ListItemResourceKey22.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Modified_By.placeholder" xml:space="preserve">
+    <value>Modified By</value>
+  </data>
+  <data name="Modified_Date.placeholder" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="Patient_Address.placeholder" xml:space="preserve">
+    <value>Patient Address</value>
+  </data>
+  <data name="Patient_Birthdate.placeholder" xml:space="preserve">
+    <value>Patient Birthdate</value>
+  </data>
+  <data name="Patient_Job.placeholder" xml:space="preserve">
+    <value>Patient Job</value>
+  </data>
+  <data name="Patient_Mobile.placeholder" xml:space="preserve">
+    <value>Patient Mobile</value>
+  </data>
+  <data name="Patient_Name.placeholder" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="Patient_Number.placeholder" xml:space="preserve">
+    <value>Patient Number</value>
+  </data>
+  <data name="Patient_Phone.placeholder" xml:space="preserve">
+    <value>Patient Phone</value>
+  </data>
+  <data name="txtSearchgvPatients_ud.placeholder" xml:space="preserve">
+    <value>Search Here...</value>
+  </data>
+</root>

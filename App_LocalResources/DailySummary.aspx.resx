@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Start Balance</value>
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>Count of Returned Visits</value>
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>Count of Payment Vouchers</value>
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>Count of Withdrawals</value>
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>Visit ID</value>
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>Examamination</value>
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource21.HeaderText" xml:space="preserve">
+    <value>ViaC.</value>
+  </data>
+  <data name="BoundFieldResource22.HeaderText" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="BoundFieldResource23.HeaderText" xml:space="preserve">
+    <value>Cont.ID</value>
+  </data>
+  <data name="BoundFieldResource24.HeaderText" xml:space="preserve">
+    <value>Disc %</value>
+  </data>
+  <data name="BoundFieldResource25.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource26.HeaderText" xml:space="preserve">
+    <value>Count of visits</value>
+  </data>
+  <data name="BoundFieldResource27.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource28.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BoundFieldResource29.HeaderText" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Outcome</value>
+  </data>
+  <data name="BoundFieldResource30.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource31.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource32.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource33.HeaderText" xml:space="preserve">
+    <value>Count of Encashment Vouchers</value>
+  </data>
+  <data name="BoundFieldResource34.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource35.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BoundFieldResource36.HeaderText" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="BoundFieldResource37.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource38.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource39.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Withdrawals</value>
+  </data>
+  <data name="BoundFieldResource40.HeaderText" xml:space="preserve">
+    <value>Count of Encashment Vouchers</value>
+  </data>
+  <data name="BoundFieldResource41.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource42.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BoundFieldResource43.HeaderText" xml:space="preserve">
+    <value>Visit ID</value>
+  </data>
+  <data name="BoundFieldResource44.HeaderText" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="BoundFieldResource45.HeaderText" xml:space="preserve">
+    <value>Examamination</value>
+  </data>
+  <data name="BoundFieldResource46.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource47.HeaderText" xml:space="preserve">
+    <value>ViaC.</value>
+  </data>
+  <data name="BoundFieldResource48.HeaderText" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="BoundFieldResource49.HeaderText" xml:space="preserve">
+    <value>Cont.ID</value>
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="BoundFieldResource50.HeaderText" xml:space="preserve">
+    <value>Disc %</value>
+  </data>
+  <data name="BoundFieldResource51.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource52.HeaderText" xml:space="preserve">
+    <value>Count of Returned visits</value>
+  </data>
+  <data name="BoundFieldResource53.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource54.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BoundFieldResource55.HeaderText" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="BoundFieldResource56.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource57.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource58.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource59.HeaderText" xml:space="preserve">
+    <value>Count of Payment Vouchers</value>
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>Count of Visits</value>
+  </data>
+  <data name="BoundFieldResource60.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource61.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BoundFieldResource62.HeaderText" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="BoundFieldResource63.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource64.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource65.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource66.HeaderText" xml:space="preserve">
+    <value>Count of Payment Vouchers</value>
+  </data>
+  <data name="BoundFieldResource67.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource68.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BoundFieldResource69.HeaderText" xml:space="preserve">
+    <value>Expense Name</value>
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource70.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource71.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource72.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource73.HeaderText" xml:space="preserve">
+    <value>Count of Payment Vouchers</value>
+  </data>
+  <data name="BoundFieldResource74.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource75.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BoundFieldResource76.HeaderText" xml:space="preserve">
+    <value>Clinic_ud Name</value>
+  </data>
+  <data name="BoundFieldResource77.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource78.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource79.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>Count of Encashment Vouchers</value>
+  </data>
+  <data name="BoundFieldResource80.HeaderText" xml:space="preserve">
+    <value>Count of Withdrawals</value>
+  </data>
+  <data name="BoundFieldResource81.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="btnDailyPrintResource1.Text" xml:space="preserve">
+    <value>Print Summary &amp; Details</value>
+  </data>
+  <data name="btnDailyPrintResource1.ToolTip" xml:space="preserve">
+    <value>Print Daily Summary - A4 Paper Size</value>
+  </data>
+  <data name="gvDetEncashCompResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetEncashCompTotalResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetEncashPatResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetEncashPatTotalResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetPayCompResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetPayCompTotalResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetPayExpResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetPayExpTotalResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetPayPatResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetPayPatTotalResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetRetVisitsResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetRetVisitsTotalResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetVisitsResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetVisitsTotalResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetWithResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvDetWithTotalResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvSummaryEncashResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvSummaryPayResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvSummaryResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvSummaryRetVisitsResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvSummaryVisitsResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvSummaryWithResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Daily Summary</value>
+  </data>
+  <data name="retxtDateResource1.ErrorMessage" xml:space="preserve">
+    <value>*Error</value>
+  </data>
+  <data name="rvtxtDateResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="aDetails.InnerHtml" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="aSummary.InnerHtml" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="bootstrap.href" xml:space="preserve">
+    <value>css/bootstrap.min.css</value>
+  </data>
+  <data name="bootstrapresponsive.href" xml:space="preserve">
+    <value>css/bootstrap-responsive.min.css</value>
+  </data>
+  <data name="hDS.InnerHtml" xml:space="preserve">
+    <value>Daily Summary</value>
+  </data>
+  <data name="hDSi.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-stats"&gt;&lt;/i&gt;Daily Summary</value>
+  </data>
+  <data name="hevfc.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-building"&gt;&lt;/i&gt;Encashment Vouchers From Companies_ud</value>
+  </data>
+  <data name="hevfp.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-parents"&gt;&lt;/i&gt;Encashment Vouchers From Patients_ud</value>
+  </data>
+  <data name="hpvfc.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-building"&gt;&lt;/i&gt;Payment Vouchers For Companies_ud</value>
+  </data>
+  <data name="hpvfe.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-calculator"&gt;&lt;/i&gt;Payment Vouchers For Examinations_ud</value>
+  </data>
+  <data name="hpvfp.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-parents"&gt;&lt;/i&gt;Payment Vouchers For Patients_ud</value>
+  </data>
+  <data name="hrv.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="icon-stethoscope"&gt;&lt;/i&gt;Returned Visits</value>
+  </data>
+  <data name="hsoi.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-cart_in"&gt;&lt;/i&gt;Summary of Income</value>
+  </data>
+  <data name="hsot.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="icon-pushpin"&gt;&lt;/i&gt;Summary of Transactions_ud</value>
+  </data>
+  <data name="hsou.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-cart_out"&gt;&lt;/i&gt;Summary of Outcome</value>
+  </data>
+  <data name="hsow.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-credit_card"&gt;&lt;/i&gt;Summary of Withdrawals</value>
+  </data>
+  <data name="hv.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="icon-stethoscope"&gt;&lt;/i&gt;Visits</value>
+  </data>
+  <data name="hw.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-credit_card"&gt;&lt;/i&gt;Withdrawals</value>
+  </data>
+  <data name="lblAction.InnerHtml" xml:space="preserve">
+    <value>Action:</value>
+  </data>
+  <data name="lblDay.InnerHtml" xml:space="preserve">
+    <value>Day:</value>
+  </data>
+  <data name="pAboutus.InnerHtml" xml:space="preserve">
+    <value>Umbrella v3.2 - © All Rights Reserved For APPLET Software &lt;span class="font-grey-4"&gt;|&lt;/span&gt;&lt;a href="AboutUs.aspx" target="_blank"&gt; About Us&lt;/a&gt;</value>
+  </data>
+  <data name="style.href" xml:space="preserve">
+    <value>css/style.css</value>
+  </data>
+</root>

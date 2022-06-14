@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Comp.ID</value>
+  </data>
+  <data name="BoundFieldResource10.HeaderText" xml:space="preserve">
+    <value>Prev. Safe Balance</value>
+  </data>
+  <data name="BoundFieldResource11.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource12.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource13.HeaderText" xml:space="preserve">
+    <value>Pat.ID</value>
+  </data>
+  <data name="BoundFieldResource14.HeaderText" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="BoundFieldResource15.HeaderText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="BoundFieldResource16.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="BoundFieldResource17.HeaderText" xml:space="preserve">
+    <value>Date &amp; Time</value>
+  </data>
+  <data name="BoundFieldResource18.HeaderText" xml:space="preserve">
+    <value>Pat.ID</value>
+  </data>
+  <data name="BoundFieldResource19.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="BoundFieldResource20.HeaderText" xml:space="preserve">
+    <value>Prev. Balance</value>
+  </data>
+  <data name="BoundFieldResource21.HeaderText" xml:space="preserve">
+    <value>Prev. Safe Balance</value>
+  </data>
+  <data name="BoundFieldResource22.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource23.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource24.HeaderText" xml:space="preserve">
+    <value>Expense ID</value>
+  </data>
+  <data name="BoundFieldResource25.HeaderText" xml:space="preserve">
+    <value>Expense Name</value>
+  </data>
+  <data name="BoundFieldResource26.HeaderText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="BoundFieldResource27.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="BoundFieldResource28.HeaderText" xml:space="preserve">
+    <value>Date &amp; Time</value>
+  </data>
+  <data name="BoundFieldResource29.HeaderText" xml:space="preserve">
+    <value>Expense ID</value>
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="BoundFieldResource30.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource31.HeaderText" xml:space="preserve">
+    <value>Prev. Balance</value>
+  </data>
+  <data name="BoundFieldResource32.HeaderText" xml:space="preserve">
+    <value>Prev. Safe Balance</value>
+  </data>
+  <data name="BoundFieldResource33.HeaderText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="BoundFieldResource34.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>Date &amp; Time</value>
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>Comp.ID</value>
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>Prev. Balance</value>
+  </data>
+  <data name="btnCompSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnExpSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnPatients_udSearchResource1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnPatSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="drpactive.Text" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="drpAll.Text" xml:space="preserve">
+    <value>Status - All</value>
+  </data>
+  <data name="drpFemale.Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="drpGender.Text" xml:space="preserve">
+    <value>Gender - All</value>
+  </data>
+  <data name="drpID.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="drpinactive.Text" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="drpMale.Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="drpName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="drpPatAll.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="gvCompanies_udResource2.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvCompTransactionResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvExaminations_udResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvExpTransactionResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvPatients_udResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="gvPatTransactionResource1.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Payment Voucher</value>
+  </data>
+  <data name="retxtCompAmountResource1.ErrorMessage" xml:space="preserve">
+    <value>*Error</value>
+  </data>
+  <data name="retxtExpAmountResource1.ErrorMessage" xml:space="preserve">
+    <value>*Error</value>
+  </data>
+  <data name="retxtPatAmountResource1.ErrorMessage" xml:space="preserve">
+    <value>*Error</value>
+  </data>
+  <data name="rvtxtCompAmountResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="rvtxtCompCodeResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="rvtxtExpAmountResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="rvtxtExpCodeResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="rvtxtPatAmountResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="rvtxtPatCodeResource1.ErrorMessage" xml:space="preserve">
+    <value>*Required</value>
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="aCompanies_ud.InnerHtml" xml:space="preserve">
+    <value>Companies_ud</value>
+  </data>
+  <data name="aExaminations_ud.InnerHtml" xml:space="preserve">
+    <value>Examinations_ud</value>
+  </data>
+  <data name="aPatients_ud.InnerHtml" xml:space="preserve">
+    <value>Patients_ud</value>
+  </data>
+  <data name="bootstrap.href" xml:space="preserve">
+    <value>css/bootstrap.min.css</value>
+  </data>
+  <data name="bootstrapresponsive.href" xml:space="preserve">
+    <value>css/bootstrap-responsive.min.css</value>
+  </data>
+  <data name="btnNew.value" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="btnNo.InnerHtml" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btnYes.InnerHtml" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="hCompanies_ud.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-building"&gt;&lt;/i&gt;Companies_ud</value>
+  </data>
+  <data name="hExaminations_ud.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-calculator"&gt;&lt;/i&gt;Examinations_ud</value>
+  </data>
+  <data name="hPatients_ud.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-parents"&gt;&lt;/i&gt;Patients_ud</value>
+  </data>
+  <data name="hPV.InnerHtml" xml:space="preserve">
+    <value>Payment Voucher</value>
+  </data>
+  <data name="hPVS.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="glyphicon-cart_out"&gt;&lt;/i&gt;Payment Voucher</value>
+  </data>
+  <data name="hTransactions_ud.InnerHtml" xml:space="preserve">
+    <value>&lt;i class="icon-money"&gt;&lt;/i&gt;Transactions_ud</value>
+  </data>
+  <data name="lblActions.InnerHtml" xml:space="preserve">
+    <value>Actions:</value>
+  </data>
+  <data name="lblAmount.InnerHtml" xml:space="preserve">
+    <value>Amount:</value>
+  </data>
+  <data name="lblBalance.InnerHtml" xml:space="preserve">
+    <value>Balance:</value>
+  </data>
+  <data name="lblCode.InnerHtml" xml:space="preserve">
+    <value>Code:</value>
+  </data>
+  <data name="lblNote.InnerHtml" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="myModalLabel.InnerHtml" xml:space="preserve">
+    <value>Saving Confirmation</value>
+  </data>
+  <data name="pAboutus.InnerHtml" xml:space="preserve">
+    <value>Umbrella v3.4 - © All Rights Reserved For APPLET Software &lt;span class="font-grey-4"&gt;|&lt;/span&gt;&lt;a href="AboutUs.aspx" target="_blank"&gt; About Us&lt;/a&gt;</value>
+  </data>
+  <data name="pNote.InnerHtml" xml:space="preserve">
+    <value>&lt;b&gt;Note: There is no undo for this operation&lt;/b&gt;</value>
+  </data>
+  <data name="pSave.InnerHtml" xml:space="preserve">
+    <value>Are you sure that you want to save this operation ?</value>
+  </data>
+  <data name="style.href" xml:space="preserve">
+    <value>css/style.css</value>
+  </data>
+  <data name="txtAmount.placeholder" xml:space="preserve">
+    <value>Paid Amount</value>
+  </data>
+  <data name="txtCompBalance.placeholder" xml:space="preserve">
+    <value>Company Balance</value>
+  </data>
+  <data name="txtExpBalance.placeholder" xml:space="preserve">
+    <value>Expense Balance</value>
+  </data>
+  <data name="txtNote.placeholder" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="txtPatBalance.placeholder" xml:space="preserve">
+    <value>Patient Balance</value>
+  </data>
+  <data name="txtSearchgvPatients_ud.placeholder" xml:space="preserve">
+    <value>Search Here...</value>
+  </data>
+  <data name="txtSrchCodegvCompTrans.placeholder" xml:space="preserve">
+    <value>Search By Company ID...</value>
+  </data>
+  <data name="txtSrchCodegvExpTrans.placeholder" xml:space="preserve">
+    <value>Search By Expense ID...</value>
+  </data>
+  <data name="txtSrchCodegvPatTrans.placeholder" xml:space="preserve">
+    <value>Search By Patient ID...</value>
+  </data>
+  <data name="txtSrchDate.placeholder" xml:space="preserve">
+    <value>Search By DateTime...</value>
+  </data>
+  <data name="txtSrchgvCompanies_ud.placeholder" xml:space="preserve">
+    <value>Search By Company Name...</value>
+  </data>
+  <data name="txtSrchgvExaminations_ud.placeholder" xml:space="preserve">
+    <value>Search By Expense Name...</value>
+  </data>
+</root>

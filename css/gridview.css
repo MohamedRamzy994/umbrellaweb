@@ -1,0 +1,205 @@
+﻿.scroll {
+    overflow: auto;
+    background: #fff;
+    font-size: 15px;
+    color: #fff;
+    margin: 4px 4px 4px 4px;
+    text-align: center;
+    border: 1px solid #666666;
+}
+
+.tblbordered {
+    border: 2px solid #ddd !important;
+    border-collapse: separate;
+    -moz-border-radius: 4px;
+    border-radius: 4px !important;
+    border-top: 0 !important;
+}
+
+.scroll-background {
+    background: #f1f1f1;
+    border-radius: 3px;
+    padding: 4px 4px;
+    margin-bottom: 10px;
+}
+
+.scrollsmall {
+    max-height: 444px;
+    min-height: 444px;
+}
+
+.scrollsmall2 {
+    max-height: 245px;
+    min-height: 245px;
+}
+
+.scrollmedium {
+    max-height: 335px;
+    min-height: 335px;
+    min-width: 235px;
+    max-width: 470px;
+}
+
+.scrolltall {
+    max-height: 455px;
+    min-height: 455px;
+}
+
+.scrollbig {
+    max-height: 415px;
+    min-height: 415px;
+}
+
+.scrollbig2 {
+    max-height: 455px;
+    min-height: 455px;
+}
+
+.scrollbig3 {
+    max-height: 480px;
+    min-height: 480px;
+}
+
+.scrollclc {
+    max-height: 340px;
+    min-height: 340px;
+}
+
+.scrollmini {
+    min-height: 75px;
+    min-height: 75px;
+}
+
+.scrollmini2 {
+    max-height: 345px;
+    min-height: 75px;
+}
+
+.blue1 {
+    margin-top: 40px;
+    color: #00b9ee;
+}
+
+.gvgray {
+    background: #333333;
+    height: 40px;
+    position: static;
+}
+
+.blue2 {
+    background: #0079ff;
+    color: #fff;
+    height: 33px;
+}
+
+.blue3 {
+    background: #204e81 !important;
+    height: 33px;
+}
+
+.blue4 {
+    background: #666666;
+}
+
+.gvrow {
+    cursor: pointer;
+}
+
+    .gvrow:hover {
+        background: #666666;
+    }
+
+.gvrow2 {
+    cursor: pointer;
+}
+
+    .gvrow2:hover {
+        background: #666666;
+    }
+
+.gvempty {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    font-size: large;
+    text-align: center;
+    height: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+/*.gvpagination {
+    background: #333333;
+    padding: 5px;
+}
+
+.gvnumbtn {
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 30px;
+    padding-top: 5px;
+    color: white;
+    text-decoration: none;
+    background: #0079ff;
+}
+    
+.gvnumbtn:hover {
+    color: #fff;
+    background: #83d0f5;
+}
+
+    */
+.gvpagination {
+    background-color: #333333 !important;
+    display: normal;
+    color: #fff;
+    height: 35px;
+    padding: 3px 0px 3px 5px;
+}
+
+    .gvpagination a {
+        background-color: #eee;
+        color: #033770 !important;
+        display: block;
+        width: 30px;
+        height: 25px;
+        padding-top: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        display: inline-block;
+        vertical-align: middle; /* vertical alignment of the inline element */
+    }
+
+        .gvpagination a:hover {
+            background-color: #0079ff;
+            color: #fff !important;
+            text-decoration: none;
+        }
+
+.gvcurrentrow {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+    background-color: #204e81;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.gallaryPagination {
+    background: #535353;
+    padding: 5px;
+}
+
+.div_search_box {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 0px 7px;
+    display: inline-block;
+}
